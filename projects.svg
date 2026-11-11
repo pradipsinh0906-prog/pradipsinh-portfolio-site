@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 718" width="1200" height="718" role="img" aria-label="Featured projects: AI Resume Reviewer, PitchSlap, Brewly and Math Magic" xmlns:c2pa="http://c2pa.org/manifest">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#080B12"/><stop offset="1" stop-color="#0D1117"/></linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#6366F1"/><stop offset="0.5" stop-color="#8B5CF6"/><stop offset="1" stop-color="#06B6D4"/></linearGradient>
+<radialGradient id="g1" cx="0.08" cy="0.05" r="0.6"><stop offset="0" stop-color="#6366F1" stop-opacity="0.26"/><stop offset="1" stop-color="#6366F1" stop-opacity="0"/></radialGradient>
+<radialGradient id="g2" cx="0.97" cy="0.95" r="0.5"><stop offset="0" stop-color="#06B6D4" stop-opacity="0.2"/><stop offset="1" stop-color="#06B6D4" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#94A3B8" fill-opacity="0.12"/></pattern>
+<style>
+.t{font-family:'Segoe UI',Helvetica,Arial,sans-serif}
+.m{font-family:'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace}
+.bar{animation:grow 1.2s ease .2s backwards}
+@keyframes grow{from{transform:scaleX(0)}}
+.bar{transform-box:fill-box;transform-origin:left}
+</style>
+</defs>
+<rect width="1200" height="718" rx="18" fill="url(#bg)"/>
+<rect width="1200" height="718" rx="18" fill="url(#dots)"/>
+<rect width="1200" height="718" rx="18" fill="url(#g1)"/>
+<rect width="1200" height="718" rx="18" fill="url(#g2)"/>
+<rect x="1" y="1" width="1198" height="716" rx="17" fill="none" stroke="#6366F1" stroke-opacity="0.35"/>
+<text x="48" y="52" class="m" font-size="15" fill="#06B6D4">// projects</text>
+<text x="48" y="92" class="t" font-size="34" font-weight="700" fill="#F8FAFC">Selected work</text>
+<rect class="bar" x="48" y="106" width="64" height="4" rx="2" fill="url(#accent)"/>
+<text x="48" y="138" class="t" font-size="16" fill="#94A3B8">AI tools, a cafe finder and an Android app for kids.</text>
+<g transform="translate(48,170)">
+<clipPath id="c0"><rect width="550" height="240" rx="16"/></clipPath>
+<rect width="550" height="240" rx="16" fill="#111827"/>
+<circle cx="520" cy="30" r="90" fill="#6366F1" fill-opacity="0.07" clip-path="url(#c0)"/>
+<rect width="550" height="240" rx="16" fill="none" stroke="#6366F1" stroke-opacity="0.45"/>
+<rect x="0" y="28" width="5" height="44" rx="2.5" fill="#6366F1"/>
+<text x="28" y="44" class="m" font-size="13" fill="#6366F1">AI / PYTHON</text>
+<text x="28" y="80" class="t" font-size="25" font-weight="700" fill="#F8FAFC">AI Resume Reviewer</text>
+<text x="28" y="114" class="t" font-size="15" fill="#94A3B8">Reads a resume PDF and returns structured, LLM-based</text>
+<text x="28" y="136" class="t" font-size="15" fill="#94A3B8">feedback through a custom scoring UI.</text>
+<rect x="28" y="188" width="70" height="28" rx="14.0" fill="#6366F1" fill-opacity="0.14" stroke="#6366F1" stroke-opacity="0.55"/><text x="63.0" y="206.5" text-anchor="middle" class="m" font-size="12.5" fill="#E2E8F0">Python</text>
+<rect x="106" y="188" width="92" height="28" rx="14.0" fill="#6366F1" fill-opacity="0.14" stroke="#6366F1" stroke-opacity="0.55"/><text x="152.0" y="206.5" text-anchor="middle" class="m" font-size="12.5" fill="#E2E8F0">LangChain</text>
+<rect x="206" y="188" width="54" height="28" rx="14.0" fill="#6366F1" fill-opacity="0.14" stroke="#6366F1" stroke-opacity="0.55"/><text x="233.0" y="206.5" text-anchor="middle" class="m" font-size="12.5" fill="#E2E8F0">Groq</text>
+<rect x="268" y="188" width="92" height="28" rx="14.0" fill="#6366F1" fill-opacity="0.14" stroke="#6366F1" stroke-opacity="0.55"/><text x="314.0" y="206.5" text-anchor="middle" class="m" font-size="12.5" fill="#E2E8F0">Streamlit</text>
+</g>
+<g transform="translate(618,170)">
+<clipPath id="c1"><rect width="550" height="240" rx="16"/></clipPath>
+<rect width="550" height="240" rx="16" fill="#111827"/>
+<circle cx="520" cy="30" r="90" fill="#8B5CF6" fill-opacity="0.07" clip-path="url(#c1)"/>
+<rect width="550" height="240" rx="16" fill="none" stroke="#8B5CF6" stroke-opacity="0.45"/>
+<rect x="0" y="28" width="5" height="44" rx="2.5" fill="#8B5CF6"/>
+<text x="28" y="44" class="m" font-size="13" fill="#8B5CF6">AI / FUN</text>
+<text x="28" y="80" class="t" font-size="25" font-weight="700" fill="#F8FAFC">PitchSlap</text>
+<text x="28" y="114" class="t" font-size="15" fill="#94A3B8">A satirical startup-pitch generator that mixes random</text>
+<text x="28" y="136" class="t" font-size="15" fill="#94A3B8">industries, problems and tech buzzwords into absurd</text>
+<text x="28" y="158" class="t" font-size="15" fill="#94A3B8">pitches using the Gemini API.</text>
+<rect x="28" y="188" width="100" height="28" rx="14.0" fill="#8B5CF6" fill-opacity="0.14" stroke="#8B5CF6" stroke-opacity="0.55"/><text x="78.0" y="206.5" text-anchor="middle" class="m" font-size="12.5" fill="#E2E8F0">Gemini API</text>
+<rect x="136" y="188" width="62" height="28" rx="14.0" fill="#8B5CF6" fill-opacity="0.14" stroke="#8B5CF6" stroke-opacity="0.55"/><text x="167.0" y="206.5" text-anchor="middle" class="m" font-size="12.5" fill="#E2E8F0">React</text>
+<rect x="206" y="188" width="100" height="28" rx="14.0" fill="#8B5CF6" fill-opacity="0.14" stroke="#8B5CF6" stroke-opacity="0.55"/><text x="256.0" y="206.5" text-anchor="middle" class="m" font-size="12.5" fill="#E2E8F0">TypeScript</text>
+</g>
+<g transform="translate(48,430)">
+<clipPath id="c2"><rect width="550" height="240" rx="16"/></clipPath>
+<rect width="550" height="240" rx="16" fill="#111827"/>
+<circle cx="520" cy="30" r="90" fill="#06B6D4" fill-opacity="0.07" clip-path="url(#c2)"/>
+<rect width="550" height="240" rx="16" fill="none" stroke="#06B6D4" stroke-opacity="0.45"/>
+<rect x="0" y="28" width="5" height="44" rx="2.5" fill="#06B6D4"/>
+<text x="28" y="44" class="m" font-size="13" fill="#06B6D4">AI / WEB</text>
+<text x="28" y="80" class="t" font-size="25" font-weight="700" fill="#F8FAFC">Brewly</text>
+<text x="28" y="114" class="t" font-size="15" fill="#94A3B8">An AI-powered cafe discovery website that combines</text>
+<text x="28" y="136" class="t" font-size="15" fill="#94A3B8">Gemini with real Google Places data to help you find the</text>
+<text x="28" y="158" class="t" font-size="15" fill="#94A3B8">right cafe nearby.</text>
+<rect x="28" y="188" width="100" height="28" rx="14.0" fill="#06B6D4" fill-opacity="0.14" stroke="#06B6D4" stroke-opacity="0.55"/><text x="78.0" y="206.5" text-anchor="middle" class="m" font-size="12.5" fill="#E2E8F0">Gemini API</text>
+<rect x="136" y="188" width="123" height="28" rx="14.0" fill="#06B6D4" fill-opacity="0.14" stroke="#06B6D4" stroke-opacity="0.55"/><text x="197.5" y="206.5" text-anchor="middle" class="m" font-size="12.5" fill="#E2E8F0">Google Places</text>
+<rect x="267" y="188" width="62" height="28" rx="14.0" fill="#06B6D4" fill-opacity="0.14" stroke="#06B6D4" stroke-opacity="0.55"/><text x="298.0" y="206.5" text-anchor="middle" class="m" font-size="12.5" fill="#E2E8F0">React</text>
+</g>
+<g transform="translate(618,430)">
+<clipPath id="c3"><rect width="550" height="240" rx="16"/></clipPath>
+<rect width="550" height="240" rx="16" fill="#111827"/>
+<circle cx="520" cy="30" r="90" fill="#10B981" fill-opacity="0.07" clip-path="url(#c3)"/>
+<rect width="550" height="240" rx="16" fill="none" stroke="#10B981" stroke-opacity="0.45"/>
+<rect x="0" y="28" width="5" height="44" rx="2.5" fill="#10B981"/>
+<text x="28" y="44" class="m" font-size="13" fill="#10B981">ANDROID / EDUCATION</text>
+<text x="28" y="80" class="t" font-size="25" font-weight="700" fill="#F8FAFC">Math Magic</text>
+<text x="28" y="114" class="t" font-size="15" fill="#94A3B8">An Android maths app for kids aged 5 to 10, with games,</text>
+<text x="28" y="136" class="t" font-size="15" fill="#94A3B8">stars and badges. Works offline in English and Gujarati,</text>
+<text x="28" y="158" class="t" font-size="15" fill="#94A3B8">with no ads.</text>
+<rect x="28" y="188" width="70" height="28" rx="14.0" fill="#10B981" fill-opacity="0.14" stroke="#10B981" stroke-opacity="0.55"/><text x="63.0" y="206.5" text-anchor="middle" class="m" font-size="12.5" fill="#E2E8F0">Kotlin</text>
+<rect x="106" y="188" width="138" height="28" rx="14.0" fill="#10B981" fill-opacity="0.14" stroke="#10B981" stroke-opacity="0.55"/><text x="175.0" y="206.5" text-anchor="middle" class="m" font-size="12.5" fill="#E2E8F0">Jetpack Compose</text>
+<rect x="252" y="188" width="77" height="28" rx="14.0" fill="#10B981" fill-opacity="0.14" stroke="#10B981" stroke-opacity="0.55"/><text x="290.5" y="206.5" text-anchor="middle" class="m" font-size="12.5" fill="#E2E8F0">Android</text>
+</g>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTphMmI0NTkyNS0wYzMzLTQzZGQtYTMwYi0zMjc5N2I4YTIxNjEAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaCHfpsFa2QSqU5Yrt6vVWL4AAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDowYTMwNGFhOC1lODlhLTQxYjEtYThmNi03MjliMDI2OGU4M2FscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNol5nczEra27crBOIIyxZmpQAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggR4uMJ5gwfe96i/qnBahLeHTWTZAHHBnd5l8UeYoVAQmkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaAQ0/6+N4pnyJItmrdCtcgoAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIK2HRGg2+Om4WfaPHUroMbrsqqMSDs910UXtlC2COqHhZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GSJJZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmEyYjQ1OTI1LTBjMzMtNDNkZC1hMzBiLTMyNzk3YjhhMjE2MS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOmQ1NTJlM2NhLTMxYzgtNDcwYS05NDkwLTU5Yzk5MWViM2UxMnJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCBHi4wnmDB973qL+qcFqEt4dNZNkAccGd3mXxR5ihUBCaJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgg6e01ZqGifxN0n5Znv/ByLfGO3ioSFLqtbBIjvInBm6miY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFgg0B4OikIcHSHIKwRUrjr9D6CrNY79s8UdYNIy43K0Dul0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQKj8RFPq1P5bieD/j5u8upl7a4PPbCBshF8eFiCeKClpOP+TtCgYh/HoTB6h/sf4HHQxyGM3PHsknNrwZLAHRrw=</c2pa:manifest></metadata></svg>
